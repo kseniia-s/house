@@ -1,15 +1,6 @@
 public class App {
 
   public static void main(String[] args) {
-//    Flat flat = new Flat();
-//    flat.addArea(AreaType.BATHROOM, 5.5);
-//    flat.addArea(AreaType.RESTROOM, 2.0);
-//    flat.addArea(AreaType.BEDROOM, 15.5);
-//    flat.addArea(AreaType.BEDROOM, 17.5);
-//    flat.addArea(AreaType.BEDROOM, 14.2);
-//    flat.addArea(AreaType.KITCHEN, 8.1);
-//    flat.addArea(AreaType.BALCONY, 3.0);
-//    flat.addArea(AreaType.DINNERROOM, 7.1);
     House house = new House();
     Floor floor0 = house.addFloor(0);
     floor0.addArea(AreaType.BEDROOM, 20.2);

@@ -8,10 +8,10 @@ public class Floor {
   private double nonLivingArea;
   private double totalArea;
 
-  List<Area> areas = new ArrayList<>();
+  private List<Area> areas = new ArrayList<>();
 
 
-  public Floor(int floor){
+  Floor(int floor){
     this.floorNumber = floor;
   }
 
@@ -47,4 +47,5 @@ public class Floor {
   public double getTotalArea() {
     return totalArea;
   }
+
 }
